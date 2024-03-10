@@ -2,7 +2,7 @@ let nhap = document.getElementById("nhap");
 
 let menu = JSON.parse(localStorage.getItem('menu')) || ["rauxao","thitluoc","garan"];
 
-    let userInput = prompt("ký tự");
+    let userInput = prompt("ký tự crud");
 
 // if (userInput === "C"){
 //     alert("Mời người dùng nhập món ăn muốn thêm vào menu")
